@@ -7,4 +7,6 @@
 	<node pkg="rosbag_logging" type="startup_rosbag_logging.sh" name="rosbag_logging">
         </node>
 
+    <include file="$(find rosbag_logging)/launch/data_recording.launch"/>
+
 </launch>
