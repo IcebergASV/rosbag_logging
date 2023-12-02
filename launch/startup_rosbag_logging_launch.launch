@@ -1,0 +1,10 @@
+<launch>
+<!--	
+	<node pkg="startup_script_rosbag_pkg" type="startup_script_rosbag_pkg" name="startup_script_rosbag_pkg">
+		<param name="cmd" value="/home/icebergasv/asv-system/scripts/startup_rosbag.sh"/>
+	</node>
+-->
+	<node pkg="rosbag_logging" type="startup_rosbag_logging.sh" name="rosbag_logging">
+        </node>
+
+</launch>
