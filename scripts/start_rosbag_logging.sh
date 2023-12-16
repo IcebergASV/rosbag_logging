@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Generate the full directory name with the version number
 dir_name="${dir_base}_${version}"
