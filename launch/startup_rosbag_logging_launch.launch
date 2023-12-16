@@ -4,7 +4,7 @@
 		<param name="cmd" value="/home/icebergasv/asv-system/scripts/startup_rosbag.sh"/>
 	</node>
 -->
-	<node pkg="rosbag_logging" type="startup_rosbag_logging.sh" name="rosbag_logging">
+	<node pkg="rosbag_logging" type="start_rosbag_logging.sh" name="rosbag_logging">
         </node>
 
     <include file="$(find rosbag_logging)/launch/data_recording.launch"/>
